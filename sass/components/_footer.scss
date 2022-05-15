@@ -130,3 +130,15 @@
     display: flex;
   }
 }
+
+.soc-item {
+  @extend .soc-list__item;
+}
+
+.social-link {
+  @extend .soc-list__link;
+}
+
+.team-icon {
+  @extend .soc-list__icon;
+}
