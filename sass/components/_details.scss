@@ -1,0 +1,40 @@
+.details-section {
+  padding-top: 94px;
+}
+
+.details-flex {
+  display: flex;
+}
+
+.details-item {
+  flex-basis: calc((100% - 90px) / 4);
+
+  &:not(:last-child) {
+    margin-right: 30px;
+  }
+}
+
+.details-decoration {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 120px;
+  border-radius: 4px;
+  margin-bottom: 30px;
+
+  background-color: $additional-bg-color;
+}
+
+.details-headline {
+  margin-bottom: 10px;
+
+  font-size: inherit;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+
+.details-text {
+  line-height: 1.71;
+
+  color: $secondary-text-color;
+}
